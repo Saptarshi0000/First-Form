@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop Multiple table</title>
+</head>
+
+<body>
+    <input type="text" name="" id="fv">
+    <button onclick="f1()">Click Here</button>
+</body>
+<script>
+    var x, y, res;
+    function f1() {
+        y = parseInt (document.getElementById("fv").value);
+        for (x = 1; x <= 10; x++) {
+            res = x * y;
+            document.write(y + "x" + x + "=" + res+"<br>");
+        }
+    }
+</script>
+
+</html>
